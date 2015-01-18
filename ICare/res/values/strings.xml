@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Name">Name</string>
+    <string name="age">Age</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="Date_Of_Birth">Birth Date</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="Save">Save</string>
+    <string name="createDietChart">Create Diet Chart</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="dateOfDiet">Date Of Diet</string>
+    <string name="timeOfDiet">Time Of Diet</string>
+    <string name="myfeastName">Feast name</string>
+    <string name="myfeastManu">Feast manu</string>
+    <string name="Special_comment">Special Comment</string>
+    <string name="Create_Profile">Create Profile</string>
+    <string name="My_Profile">My Profile</string>
+    <string name="Update">Update</string>
+    <string name="load"></string>
+    <string name="myProfile">My Profile</string>
+    <string name="todayDiet">Diet Chart of The Day</string>
+    <string name="upComingDiet">Upcoming Diet Chart</string>
+    <string name="Friday">16/01/2015 Friday</string>
+    <string name="image">Loading!!!</string>
+    <string name="time">Time</string>
+    <string name="manu">Feast manu</string>
+    <string name="food">Event Name</string>
+    <string name="addDailyDiet">Add Your Daily Diet</string>
+    <string name="title_activity_icare_splash">ICareSplashActivity</string>
+    <string name="title_activity_icare_profile_preview">ICareProfilePreviewActivity</string>
+    <string name="title_activity_icare_profile_preview_acitvity">ICareProfilePreviewAcitvity</string>
+    <string name="title_activity_icare_create_diet_chart">ICareCreateDietChartActivity</string>
+    <string name="title_activity_icare_diet_list">ICareDietListActivity</string>
+    <string name="title_activity_icare_daily_diet_chart_view">ICareDailyDietChartViewActivity</string>
+    <string name="title_activity_icare_diet_history">ICareDietHistoryActivity</string>
+    <string name="radioAll">All</string>
+    <string name="radioWeek">Week</string>
+    <string name="radioMonth">Month</string>
+    <string name="pickDiet">Pick Diet Date</string>
+    <string name="myDietChartHistory">My Diet Chart History</string>
+    <string name="history">History</string>
+    <string name="createDiet">Create Diet</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.icare.IcareHomeActivity" >
+
+    <TextView
+        android:id="@+id/myDietChartHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/myDietChartHistory"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="viweAllData"
+                android:text="@string/radioAll"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <RadioButton
+                android:id="@+id/radioWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/radioWeek"
+                android:textColor="@android:color/holo_blue_dark" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/dateOfDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pickDiet"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/editTextS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="true"
+            android:inputType="text"
+            android:textColor="#ffffff" />
+
+        <ListView
+            android:id="@+id/lvHistoryDietChart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
