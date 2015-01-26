@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ftfl.shoppingcomplex.ShoppingComplexListActivity" >
+
+    <item
+        android:id="@+id/addShoppingComplex"
+        android:orderInCategory="100"
+        android:title="@string/addShoppingComplex"
+        app:showAsAction="never"/>
+
+</menu>
