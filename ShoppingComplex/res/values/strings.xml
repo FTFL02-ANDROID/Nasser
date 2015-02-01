@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingComplex</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_description">Splash</string>
+    <string name="title_activity_add_shopping_complex">Add Shopping Complex</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="closeDay">Close Day:</string>
+    <string name="openTime">Open Time:</string>
+    <string name="description">Description:</string>
+    <string name="enter_name">name</string>
+    <string name="enter_address">address</string>
+    <string name="enter_latitude">latitude</string>
+    <string name="enter_longitude">longitude</string>
+    <string name="enter_closeDay">close day</string>
+    <string name="enter_openTime">daily open time</string>
+    <string name="enter_description">service description</string>
+    <string name="btnSave">Save</string>
+    <string name="btnAddImage">Add Image</string>
+    <string name="title_activity_shopping_complex_list"> Shopping Complex</string>
+    <string name="title_activity_shopping_complex_view">Shopping Complex Information</string>
+    <string name="title_activity_google_map">Google Map</string>
+    <string name="addShoppingComplex">Add Shopping Complex</string>
+    <string name="takeFromCamera">Take from Camera</string>
+    <string name="selectFromGallery">Select from Gallery</string>
+    <string name="selectOption">Select Option</string>
+    <string name="successfullyUpdated">Successfully Updated</string>
+    <string name="notUpdated">Not Updated</string>
+    <string name="successfullySaved">Successfully Saved</string>
+    <string name="notSaved">Not Saved</string>
+    <string name="notCrop">Your device does not support the crop action!</string>
+    <string name="update">Update</string>
+    <string name="fetchingRoute">Fetching route, Please wait.</string>
+    <string name="viewData">View Data</string>
+    <string name="editData">Edit Data</string>
+    <string name="googleMap">Google Map</string>
+    <string name="delete">Delete</string>
+    <string name="imageDescription">shopping complex image</string>
+    <string name="shoppingComplex">Shopping Complex</string>
+
+</resources>

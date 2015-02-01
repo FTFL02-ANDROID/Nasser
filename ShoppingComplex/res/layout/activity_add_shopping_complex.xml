@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_background"
+            android:gravity="center"
+            android:text="@string/shoppingComplex"
+            android:textColor="#FA409A"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/db_check_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/name" />
+
+                <EditText
+                    android:id="@+id/addName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/address" />
+
+                <EditText
+                    android:id="@+id/addAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_address" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/latitude" />
+
+                <EditText
+                    android:id="@+id/addLatitude"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_latitude" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/longitude" />
+
+                <EditText
+                    android:id="@+id/addLongitude"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_longitude" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/closeDay" />
+
+                <EditText
+                    android:id="@+id/addCloseDay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_closeDay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/openTime" />
+
+                <EditText
+                    android:id="@+id/addDailyOpenTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_openTime" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/description" />
+
+                <EditText
+                    android:id="@+id/addServiceDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="@string/enter_description" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddImage"
+                style="@color/abc_primary_text_material_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:ems="5"
+                android:text="@string/btnAddImage" />
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@color/abc_primary_text_material_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:ems="5"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btnSave" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

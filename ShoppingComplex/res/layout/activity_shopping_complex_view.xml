@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/viewName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/layout_background"
+        android:gravity="center"
+        android:textColor="#FA409A"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/address"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/latitude"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewLatitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/longitude"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewLongitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/closeDay"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewCloseDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/openTime"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewDailyOpenTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/description"
+                android:textColor="#111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewServiceDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#111"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/imageDescription"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+</LinearLayout>
