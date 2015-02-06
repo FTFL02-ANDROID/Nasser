@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.imagedatabase.ImageCaptureActivity" >
+
+    <ImageView
+        android:id="@+id/imageviewCapturedImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/imageDescription"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/buttonCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="callCamera"
+        android:text="@string/buttonCapture" />
+
+    <Button
+        android:id="@+id/buttonRegisterTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="performRegisterWork"
+        android:text="@string/buttonRegister" />
+
+</LinearLayout>
