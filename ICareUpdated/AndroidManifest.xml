@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ftfl.icare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name=".ICareProfileCreateActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ICareSplashActivity"
+            android:label="@string/title_activity_icare_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ICareProfilePreviewActivity"
+            android:label="@string/title_activity_icare_profile_preview" >
+        </activity>
+        <activity
+            android:name=".ICareProfilePreviewAcitvity"
+            android:label="@string/title_activity_icare_profile_preview_acitvity" >
+        </activity>
+        <activity
+            android:name=".ICareCreateDietChartActivity"
+            android:label="@string/title_activity_icare_create_diet_chart" >
+        </activity>
+        <activity
+            android:name=".ICareDietListActivity"
+            android:label="@string/title_activity_icare_diet_list" >
+        </activity>
+        <activity
+            android:name=".ICareDailyDietChartViewActivity"
+            android:label="@string/title_activity_icare_daily_diet_chart_view" >
+        </activity>
+        <activity
+            android:name=".ICareDietHistoryActivity"
+            android:label="@string/title_activity_icare_diet_history" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.icare.IcareHomeActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageViewCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:contentDescription="@drawable/diet"
+            android:src="@drawable/diet" />
+
+        <TextView
+            android:id="@+id/TextAddDietChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/createDietChart"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#c8f4f3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageViewDailyDietChartFeast"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@drawable/diet"
+                    android:src="@drawable/diet" />
+
+                <EditText
+                    android:id="@+id/editDailyDietChartFeast"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:hint="@string/myfeastName"
+                    android:inputType="text" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageViewDailyDietChartMenu"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@drawable/menu"
+                    android:src="@drawable/menu" />
+
+                <EditText
+                    android:id="@+id/editDailyDietChartManu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:hint="@string/myfeastMenu"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageViewDP"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@drawable/date"
+                    android:src="@drawable/date" />
+
+                <EditText
+                    android:id="@+id/editTextDP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:calendarViewShown="true"
+                    android:hint="@string/dateOfDiet"
+                    android:inputType="date" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageTimeDailyDietChart"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@drawable/time"
+                    android:src="@drawable/time" />
+
+                <EditText
+                    android:id="@+id/tpDailyDietChart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:hint="@string/timeOfDiet"
+                    android:inputType="time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/diet_alarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/alarm"
+                    android:text="@string/alarm"
+                    android:textColor="#0052A3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_blue"
+        android:drawableLeft="@drawable/save"
+        android:ems="5"
+        android:text="@string/Save"
+        android:textColor="@android:color/holo_blue_light" />
+
+</LinearLayout>
