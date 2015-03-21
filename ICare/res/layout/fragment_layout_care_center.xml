@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonHCOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#96AA39"
+        android:drawableLeft="@drawable/hospital"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:text="@string/hc_one"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/buttonHCTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#96AA39"
+        android:drawableLeft="@drawable/hospital"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:text="@string/hc_two"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/buttonHCThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#96AA39"
+        android:drawableLeft="@drawable/hospital"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:text="@string/hc_three"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/buttonHCFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#96AA39"
+        android:drawableLeft="@drawable/hospital"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:text="@string/hc_four"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/buttonHCFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#96AA39"
+        android:drawableLeft="@drawable/hospital"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:text="@string/hc_five"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+</LinearLayout>

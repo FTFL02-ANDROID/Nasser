@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="#E5E5E5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_new_doctor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_background"
+               
+                android:hint="@string/et_name"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_new_doctor_specialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/layout_background"
+                
+                android:hint="@string/et_specialization"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_new_doctor_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/layout_background"
+                android:inputType="phone"
+                android:hint="@string/et_phone"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_new_doctor_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/layout_background"
+                android:inputType="textEmailAddress"
+                android:hint="@string/et_email"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_new_doctor_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/layout_background"
+                
+                android:hint="@string/et_address"
+                android:padding="10dp" />
+
+
+
+
+                <Button
+                    android:id="@+id/button_create_doctor_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:background="#96AA39"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/button_save"
+                    android:textColor="#fff"
+                    android:textSize="20sp" 
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_action_save"/>
+          
+        </LinearLayout>
+    </ScrollView>

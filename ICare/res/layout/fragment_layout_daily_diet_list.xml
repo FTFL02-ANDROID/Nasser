@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context="com.example.flootingbutton.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2.5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#777"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_today"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <android.support.v4.view.ViewPager
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/pagerViewDailyDiet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <android.support.v4.view.PagerTitleStrip
+                    android:id="@+id/pager_view_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="#4cad4f"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#fff" />
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#777"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_upcoming"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/list_upcoming_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:divider="#e5e5e5"
+                android:dividerHeight="3dp"
+                android:paddingTop="5dp" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_create_daily_diet"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/button_bg"
+        android:src="@drawable/ic_action_new" />
+
+</RelativeLayout>
