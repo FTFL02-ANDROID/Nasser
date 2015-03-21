@@ -54,8 +54,6 @@ public class ICareSQLiteHelper extends SQLiteOpenHelper {
 	public static final String COL_VACCINE_STATUS = "vaccine_status";
 	public static final String COL_VACCINE_PROFILE_ID = "vaccine_profile_id";
 
-
-	
 	// ICare Medical History Table
 	public static final String TABLE_MEDICAL_HISTORY = "icare_medical_history";
 	public static final String COL_MEDICAL_HISTORY_ID = "medical_history_id";
@@ -131,8 +129,6 @@ public class ICareSQLiteHelper extends SQLiteOpenHelper {
 	
 	// Medical History SQL command
 	
-
-	
 	private static final String DATABASE_CREATE_MEDICAL_HISTORY = "create table "
 			+ TABLE_MEDICAL_HISTORY + "(" + COL_MEDICAL_HISTORY_ID
 			+ " integer primary key autoincrement, " + COL_MEDICAL_HISTORY_DATE
@@ -163,6 +159,10 @@ public class ICareSQLiteHelper extends SQLiteOpenHelper {
 						+ newVersion + ", which will destroy all old data");
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_I_CARE_PROFILE);
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_ICARE_DIET_CHART);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_DOCTOR_PROFILE);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_IMPORTANT_NOTE);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_VACCINE);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_MEDICAL_HISTORY);
 		onCreate(db);
 	}
 
